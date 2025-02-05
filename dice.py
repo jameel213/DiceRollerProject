@@ -2,4 +2,4 @@
 import random
 
 def dice_roll(faces): 
-    return random.randrange(start:1, faces+1)
+    return random.randrange(1, faces+1)
