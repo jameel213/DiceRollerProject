@@ -28,8 +28,8 @@
         <dialog id="loading"><h1>Loading python environment...</h1></dialog>
         <!-- Start of your code -->
         <div class="container">
-            <label for="diceType">Select Dice Type:</label>
-            <select id="diceType">
+            <label for="dice">Select Dice Type:</label>
+            <select name="dice" id="dice" py-change="select_face_option">
                 <option value="2">Coin (d2)</option>
                 <option value="4">d4</option>
                 <option value="6">d6</option>
@@ -37,6 +37,7 @@
                 <option value="10">d10</option>
                 <option value="20">d20</option>
                 <option value="100">d100</option>
+                 <option value="1000">d1000</option>
             </select>
            
             <input type="number" id="rollCount" value="1" min="1">
@@ -45,7 +46,7 @@
             <button id="resetButton" py-click="clear_history">clear</button>
     
         </div>
-        <div id="roll-history"> dfvdfbrfgbfgb</div>
+        <div id="roll-history"> good luck</div>
         <!-- End of your code -->
         <script type="py" src="main.py" config="./pyscript.json"></script>
     </body>

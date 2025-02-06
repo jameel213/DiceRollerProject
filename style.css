@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: rgba(107, 221, 75, 0.24);
+}
+
+.container {
+    background: rgba(107, 221, 75, 0.06);
+    padding: 40px;
+    border-radius: 90px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+button {
+    background: rgba(193, 149, 86, 0.21);
+    color: #0b0404;
+    padding: 8px 10px;/* Make the button bigger */
+    margin: 15px;/* Add space between buttons */
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #f80505;
+}
+
+
